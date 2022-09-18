@@ -26,6 +26,11 @@ const deleteTodo = (id) =>{
   let updatedToDoItems = [...toDoItems].filter((toDoItem) => toDoItem.id!==id)
   setToDoItems(updatedToDoItems);
 }
+
+const completeTodo = (id) => {
+
+}
+
   return (
     <div className="todo_form">
       <h1> Add Your To Dos..Plan the Day</h1>
@@ -33,9 +38,11 @@ const deleteTodo = (id) =>{
       {toDoItems.map((toDoItem,index)=>{        
          return(
         <ToDoItemList  
-        key={index + toDoItem.id  }
+        key={index,toDoItem.id  }
         toDoItem={toDoItem}
-        deleteTodo = {deleteTodo}/>
+        deleteTodo = {deleteTodo}
+        completeTodo = {completeTodo}
+        />
          )
         })}
     </div> 
