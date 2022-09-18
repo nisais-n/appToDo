@@ -1,0 +1,46 @@
+.todo_button{
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.todo_form{
+    background-color: white;
+    padding: 0px 120px;
+    border-radius: 10px;
+    overflow: scroll;
+    min-height: 600px;
+    max-height: 600px;
+    max-width: 600px;
+}
+.todo_input{
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 260px;
+}
+
+.todo_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: white;
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+  }
