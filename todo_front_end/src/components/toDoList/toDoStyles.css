@@ -29,7 +29,7 @@
     width: 260px;
 }
 
-.todo_card {
+.todo_card{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,4 +43,33 @@
     padding: 16px;
     border-radius: 5px;
     width: 90%;
+  }
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  .todo_icons_container {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .seperatorLine {
+    height: .7px;
+    width: 90%;
+    align-self: center;
+    background-color: rebeccapurple;
+  }
+
+  .important_btn {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    border-width: 1px;
+    border-radius: 10%;
+    padding: 1px;
+    border-color: red;
+    color: red;
+    background:white;
   }

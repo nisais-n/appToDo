@@ -1,23 +1,24 @@
 import React from 'react'
 import {RiDeleteBinLine}  from "react-icons/ri"
-import { BiCheckSquare } from "react-icons/bi"
+import { ImCheckboxChecked } from "react-icons/im"
 
 function ToDoItemList(props) {
     const { toDoItem, deleteTodo, completeTodo, importantTodo } = props
   return (
-    <div className="todo_card">
+    <div className={toDoItem.isCompleted ? 'todo_card complete': 'todo_card'}
+        style={toDoItem.isImportant ?{background:"orange"} :{} }>
         {toDoItem.toDoItemDescription}
             <div className="todo_icons_container" >
                 <button 
                 onClick={() => 
                     importantTodo(toDoItem.id)} 
-                    className="important-btn">
+                    className="important_btn">
                         !
                     </button>
                 <RiDeleteBinLine style={{ marginRight: 5 }} 
                     onClick={() => 
                     deleteTodo(toDoItem.id)}/>
-                <BiCheckSquare 
+                <ImCheckboxChecked 
                     onClick={() => 
                     completeTodo(toDoItem.id)}/>
         </div> 
