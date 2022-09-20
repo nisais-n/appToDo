@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{42C82D01-34A9-4DBF-988B-2A3A000C7D24}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo_backend/ToDo.ApplicationServices /ToDoApplicationServices.cs">
+    <Files>
+      <File FileName="todo_backend/Controllers/ToDoController.cs" Line="12" Column="17" />
+      <File FileName="todo_backend/Interfaces/IToDo.cs" Line="10" Column="2" />
+      <File FileName="todo_backend/ToDo.ApplicationServices /ToDoApplicationServices.cs" Line="3" Column="44" />
+      <File FileName="todo_backend/ToDo.BusinessObjects/ToDo.cs" Line="3" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="todo_backend" expanded="True">
+            <Node name="todo_backend" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="ToDo.ApplicationServices " expanded="True">
+                <Node name="ToDoApplicationServices.cs" selected="True" />
+              </Node>
+              <Node name="ToDo.BusinessObjects" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.todo__backend PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
