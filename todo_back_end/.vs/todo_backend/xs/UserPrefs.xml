@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{42C82D01-34A9-4DBF-988B-2A3A000C7D24}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="todo_backend/Controllers/ToDosController.cs">
+    <Files>
+      <File FileName="todo_backend/Program.cs" Line="43" Column="24" />
+      <File FileName="todo_backend/Controllers/ToDosController.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="todo_backend" expanded="True">
+            <Node name="todo_backend" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ToDosController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.todo__backend PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+</Properties>
