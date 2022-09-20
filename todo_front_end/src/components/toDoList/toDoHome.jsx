@@ -1,9 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { getExistingToDos } from './apiCalls';
 import ToDoForm from './toDoForm';
 import ToDoItemList from './toDoItemList';
 
 function ToDoHome() {
  const [toDoItems, setToDoItems] = useState([]);
+
+
+
+ const getToDoList = () =>{
+   getExistingToDos()
+   .then((result)=>{
+     console.log(result)
+   }).catch((error)=>{
+    console.log(error)
+   })
+   }
+
+useEffect(() => {
+  getToDoList();
+}, [])
+
 
  const addToDo = (toDoInput) => {
 
